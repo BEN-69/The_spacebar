@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="article-container my-1">
-                    <a href="#">
+                    <a href="{{ path('article_show',{'slug': 'why-asteroids-taste-like-bacon'}) }}">
                         <img class="article-img"  src="{{ asset('images/mercury.jpeg') }}">
                         <div class="article-title d-inline-block pl-3 align-middle">
                             <span>Life on Planet Mercury: <br> Tan, Relaxing and Fabulous</span>
@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="article-container my-1">
-                    <a href="#">
+                    <a href="{{ path('article_show',{'slug': 'why-asteroids-taste-like-bacon'}) }}">
                         <img class="article-img" src="{{ asset('images/lightspeed.png') }}">
                         <div class="article-title d-inline-block pl-3 align-middle">
                             <span>Light Speed Travel: <br> Fountain of Youth or Fallacy</span>
@@ -57,8 +57,6 @@
             </div>
 
             <!-- Right bar ad space -->
-
-
             <div class="col-sm-12 col-md-4 text-center">
                 <div class="ad-space mx-auto mt-1 pb-2 pt-2">
                     <img class="advertisement-img" src="{{ asset('images/space-ice.png') }}">

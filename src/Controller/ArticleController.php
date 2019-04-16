@@ -61,7 +61,8 @@ EOF;
         }
         $articleContent = $item->get();
        // $articleContent = $markdown->transform($articleContent);
-
+       // dump($markdown);die;
+      //  dump($cache);die;
 
         $comments = [
             'I ate a normal rock once. It did NOT taste like bacon!',
