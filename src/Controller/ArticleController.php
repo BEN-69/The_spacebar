@@ -31,6 +31,7 @@ class ArticleController extends AbstractController
 
     /**
      * @Route("/news/{slug}" , name="article_show")
+     *
      */
     public function show($slug,MarkdownInterface $markdown,AdapterInterface $cache)
 
